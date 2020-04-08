@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.netodologia.myapplication.MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_notes"
+        android:orderInCategory="100"
+        android:title="Записная книжка"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/task_dates"
+        android:orderInCategory="100"
+        android:title="Сроки задачи"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/spinner"
+        android:orderInCategory="100"
+        android:title="Спиннер"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/checkbox"
+        android:orderInCategory="100"
+        android:title="CheckBox"
+        app:showAsAction="never" />
+
+</menu>
